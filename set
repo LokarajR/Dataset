@@ -1,0 +1,8 @@
+Dataset import code:
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("abhishektyagi001/vehicle-make-model-recognition-dataset-vmmrdb")
+
+print("Path to dataset files:", path)
